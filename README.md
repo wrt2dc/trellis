@@ -1,8 +1,15 @@
 # Trellis
 
-A repository that implements the Fedora API.
+Repository software that implements the [Fedora API](http://fedora.info/spec/).
 
-This currently consists of the following elements:
+Goals:
+
+  * Really, really scalable
+  * Really, really fast
+  * Modular
+  * Light-weight
+
+The code currently consists of the following elements:
 
   * [trellis-api](https://github.com/acoburn/trellis-api): The core API abstractions
   * [trellis-spi](https://github.com/acoburn/trellis-spi): The service abstractions
@@ -19,11 +26,21 @@ In progress:
  * Core (distributed) implementation -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
  * HTTP layer -- this is slated to be implemented with [dropwizard.io](http://dropwizard.io)
  * Cloud-based datastream resolver based on [jclouds](https://jclouds.apache.org/)
+ * HTML UI based on [LDPath Templates](http://marmotta.apache.org/ldpath/template.html)
+
+Main dependencies:
+
+  * [Commons-RDF](https://commons.apache.org/proper/commons-rdf/) -- for RDF abstractions
+  * [Jena](https://jena.apache.org/) -- for RDF I/O processing
+  * [Jackson](https://github.com/FasterXML/jackson) -- for JSON parsing
+  * [Jersey](https://jersey.java.net/) -- for HTTP handling
+  * [Zookeeper](https://zookeeper.apache.org/) -- for distributed coordination
+  * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
 
 Deployment:
 
- * Container-less deployment and OSGi.
+ * Container-less deployment and (possibly) also OSGi.
 
 Building:
 
- * All projects can be built with Java 8 and Gradle.
+ * All projects are written in Java and/or Scala. They can be built with Gradle and require at least Java 8.
