@@ -15,7 +15,7 @@ This currently consists of the following elements:
 
 In progress:
 
- * Event Service -- for serializing Fedora Events to a broker technology, such as [Kafka](http://kafka.apache.org) or AMQP
+ * Event Service -- for serializing repository events to a broker technology, such as [Kafka](http://kafka.apache.org) or AMQP
  * Core (distributed) implementation -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
  * HTTP layer -- this will use [dropwizard.io](http://dropwizard.io)
  * Cloud-based datastream resolver based on [jclouds](https://jclouds.apache.org/)
