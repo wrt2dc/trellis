@@ -1,6 +1,6 @@
 # Trellis
 
-A simple implementation of the Fedora API.
+A repository that implements the Fedora API.
 
 This currently consists of the following elements:
 
