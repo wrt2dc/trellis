@@ -24,6 +24,7 @@ In progress:
 
  * Event Service -- for serializing repository events to message broker technology, such as [Kafka](http://kafka.apache.org) or AMQP
  * Core (distributed) implementation -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
+ * LDP Paging support
  * HTTP layer -- this is slated to be implemented with [dropwizard.io](http://dropwizard.io)
  * Cloud-based datastream resolver based on [jclouds](https://jclouds.apache.org/)
  * HTML UI based on [LDPath Templates](http://marmotta.apache.org/ldpath/template.html)
