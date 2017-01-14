@@ -42,10 +42,6 @@ Deployment:
 
  * Container-less deployment and (possibly) also OSGi.
 
-Notes:
-
- * There are no plans at present to include support for batch operations. All other aspects of the Fedora Specification are slated to be implemented.
-
 Building:
 
  * All projects are written in Java and/or Scala. They can be built with Gradle and require at least Java 8.
