@@ -44,4 +44,4 @@ Deployment:
 
 Building:
 
- * All projects are written in Java and/or Scala. They can be built with Gradle and require at least Java 8.
+ * All projects are written in Java or Clojure and require at least Java 8. Java code can be built with Gradle, and Clojure code can be built with Leiningen.
