@@ -13,12 +13,16 @@ The code currently consists of the following elements:
 
   * [trellis-api](https://github.com/acoburn/trellis-api): The core API abstractions
   * [trellis-spi](https://github.com/acoburn/trellis-spi): The service abstractions
-  * [trellis-service-datastream](https://github.com/acoburn/trellis-service-datastream): A datastream storage and retrieval service
+  * [trellis-vocabulary](https://github.com/acoburn/trellis-vocabulary): The core RDF vocabularies in use
+
+Service implementations:
+
+  * [trellis-agent](https://github.com/acoburn/trellis-agent): A service for managing user roles
+  * [trellis-datastream](https://github.com/acoburn/trellis-datastream): A datastream storage and retrieval service
   * [trellis-service-id](https://github.com/acoburn/trellis-service-id): An ID generation service
   * [trellis-service-io-jena](https://github.com/acoburn/trellis-service-io-jena): A Jena-based I/O service
   * [trellis-service-namespaces-json](https://github.com/acoburn/trellis-service-namespaces-json): A namespace service using JSON files for persistence
   * [trellis-service-webac](https://github.com/acoburn/trellis-service-webac): An authorization layer
-  * [trellis-vocabulary](https://github.com/acoburn/trellis-vocabulary): The core RDF vocabularies in use
 
 In progress:
 
