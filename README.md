@@ -44,4 +44,4 @@ Deployment:
 
 Building:
 
- * All projects are written in Java or Clojure and require at least Java 8. All projects can be built with Gradle.
+ * All projects are written in Java and/or Clojure and require at least Java 8. All projects can be built with Gradle.
