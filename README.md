@@ -4,8 +4,8 @@ Repository software that implements the [Fedora API](http://fedora.info/spec/).
 
 ## Goals
 
-  * Really, really scalable
-  * Really, really fast
+  * Horizontally scalable
+  * Fast
   * Modular
   * Light-weight
 
