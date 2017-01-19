@@ -48,7 +48,7 @@ The code currently consists of the following elements:
 
 ## Deployment
 
- * Container-less (e.g. Docker) deployment and OSGi.
+ * The plan is to support container-less (e.g. Docker) and OSGi (e.g. Karaf) deployment options.
 
 ## Building
 
