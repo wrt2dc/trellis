@@ -48,8 +48,9 @@ The code currently consists of the following elements:
 
 ## Deployment
 
- * Container-less deployment and (possibly) also OSGi.
+ * Container-less (e.g. Docker) deployment and OSGi.
 
 ## Building
 
  * All projects are written in Java and/or Clojure and require at least Java 8. All projects can be built with Gradle.
+
