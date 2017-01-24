@@ -26,6 +26,7 @@ The code currently consists of the following elements:
   * [trellis-datastream](https://github.com/acoburn/trellis-datastream): A datastream storage and retrieval service
   * [trellis-id](https://github.com/acoburn/trellis-id): An ID generation service
   * [trellis-io-jena](https://github.com/acoburn/trellis-io-jena): A Jena-based I/O service
+  * [trellis-jms](https://github.com/acoburn/trellis-jms): A JMS-based event publisher (e.g. for [ActiveMQ](https://activemq.apache.org))
   * [trellis-namespaces](https://github.com/acoburn/trellis-namespaces): A namespace service using JSON files for persistence
   * [trellis-webac](https://github.com/acoburn/trellis-webac): An authorization layer
 
