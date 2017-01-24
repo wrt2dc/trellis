@@ -45,6 +45,7 @@ The code currently consists of the following elements:
   * [Jersey](https://jersey.java.net/) -- for HTTP handling
   * [Zookeeper](https://zookeeper.apache.org/) -- for distributed coordination
   * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
+  * [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html) -- for distributed data storage
 
 ## Deployment
 
