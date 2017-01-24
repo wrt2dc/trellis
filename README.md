@@ -22,6 +22,7 @@ The code currently consists of the following elements:
 ### Service implementations
 
   * [trellis-agent](https://github.com/acoburn/trellis-agent): A service for managing user roles
+  * [trellis-amqp](https://github.com/acoburn/trellis-amqp): An AMQP-based event publisher (e.g. for [RabbitMQ](https://www.rabbitmq.com) or [Qpid](https://qpid.apache.org))
   * [trellis-datastream](https://github.com/acoburn/trellis-datastream): A datastream storage and retrieval service
   * [trellis-id](https://github.com/acoburn/trellis-id): An ID generation service
   * [trellis-io-jena](https://github.com/acoburn/trellis-io-jena): A Jena-based I/O service
@@ -30,7 +31,6 @@ The code currently consists of the following elements:
 
 ### In progress
 
- * Event Service -- for serializing repository events to message broker technology, such as [Kafka](http://kafka.apache.org) or AMQP
  * Core (distributed) implementation -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
  * LDP Paging support
  * HTTP layer -- this is slated to be implemented with [dropwizard.io](http://dropwizard.io)
