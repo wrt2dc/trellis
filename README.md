@@ -33,6 +33,7 @@ The code currently consists of the following elements:
 ### In progress
 
  * Core (distributed) implementation -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
+ * Pluggable data storage layer, targeting [HBase](https://hbase.apache.org/) (for high performance, distributed scenarios) and a File-based structure (for simpler deployments).
  * LDP Paging support
  * HTTP layer -- this is slated to be implemented with [dropwizard.io](http://dropwizard.io)
  * Cloud-based datastream resolver based on [jclouds](https://jclouds.apache.org/)
@@ -46,7 +47,7 @@ The code currently consists of the following elements:
   * [Jersey](https://jersey.java.net/) -- for HTTP handling
   * [Zookeeper](https://zookeeper.apache.org/) -- for distributed coordination
   * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
-  * [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html) -- for distributed data storage
+  * [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html) (optional) -- for distributed data storage
 
 ## Deployment
 
