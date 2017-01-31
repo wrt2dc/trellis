@@ -21,9 +21,11 @@ The code currently consists of the following elements:
 
 ### Service implementations
 
+Each of these implements a different service in the `trellis-spi` module. These can be swapped out for different implementations as needed.
+
   * [trellis-agent](https://github.com/acoburn/trellis-agent): A service for managing user roles
   * [trellis-amqp](https://github.com/acoburn/trellis-amqp): An AMQP-based event publisher (e.g. for [RabbitMQ](https://www.rabbitmq.com) or [Qpid](https://qpid.apache.org))
-  * [trellis-constraint-rules](https://github.com/acoburn/trellis-constraint-rules): A set of constraints on the RDF that can be accepted by the server
+  * [trellis-constraint-rules](https://github.com/acoburn/trellis-constraint-rules): Rules defining the constraints on the RDF that can be accepted by the server
   * [trellis-datastream](https://github.com/acoburn/trellis-datastream): A datastream storage and retrieval service
   * [trellis-id](https://github.com/acoburn/trellis-id): An ID generation service
   * [trellis-io-jena](https://github.com/acoburn/trellis-io-jena): A Jena-based I/O service
