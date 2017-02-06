@@ -18,6 +18,7 @@ The code currently consists of the following elements:
   * [trellis-api](https://github.com/trellis-ldp/trellis-api): The core API abstractions
   * [trellis-spi](https://github.com/trellis-ldp/trellis-spi): The service abstractions
   * [trellis-vocabulary](https://github.com/trellis-ldp/trellis-vocabulary): The core RDF vocabularies in use
+  * [trellis-ontology](https://github.com/trellis-ldp/trellis-ontology): The Trellis ontology definitions
 
 ### Service implementations
 
