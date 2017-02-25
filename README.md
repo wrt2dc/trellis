@@ -2,7 +2,7 @@
 
 Repository software that implements the [Linked Data Platform](https://www.w3.org/TR/ldp/) and [Fedora API](http://fedora.info/spec/).
 
-** This is a work in progress **
+**This is a work in progress**
 
 ## Goals
 
