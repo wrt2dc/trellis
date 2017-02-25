@@ -1,6 +1,8 @@
 # Trellis
 
-Repository software that implements the [Fedora API](http://fedora.info/spec/).
+Repository software that implements the [Linked Data Platform](https://www.w3.org/TR/ldp/) and [Fedora API](http://fedora.info/spec/).
+
+** This is a work in progress **
 
 ## Goals
 
