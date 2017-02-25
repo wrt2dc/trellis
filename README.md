@@ -13,7 +13,7 @@ Repository software that implements the [Linked Data Platform](https://www.w3.or
 
 ## Implementation status
 
-The code currently consists of the following elements:
+The code is a work-in-progress and currently consists of the following elements:
 
 ### Core abstractions
 
@@ -54,6 +54,10 @@ Each of these implements a different service in the `trellis-spi` module. These 
   * [Zookeeper](https://zookeeper.apache.org/) -- for distributed coordination
   * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
   * [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html) (optional) -- for distributed data storage
+
+## Related projects
+
+  * [py-ldn](https://github.com/trellis-ldp/py-ldn) A Python3 library for linked data notifications
 
 ## Deployment
 
