@@ -57,7 +57,7 @@ Each of these implements a different service in the `trellis-spi` module. These 
 
 ## Related projects
 
-  * [py-ldn](https://github.com/trellis-ldp/py-ldn) A Python3 library for linked data notifications
+  * [py-ldnlib](https://github.com/trellis-ldp/py-ldnlib) A Python3 library for linked data notifications
 
 ## Deployment
 
