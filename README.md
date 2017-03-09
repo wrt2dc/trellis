@@ -38,7 +38,7 @@ Each of these implements a different service in the `trellis-spi` module. These 
 
 ### In progress
 
- * Core (distributed) [implementation](https://github.com/trellis-ldp/trellis-rosid) -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
+ * Core (distributed) [implementation](https://github.com/trellis-ldp/trellis-rosid-file) -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
  * Pluggable data storage layer, targeting [HBase](https://hbase.apache.org/) (for high performance, distributed scenarios) and a File-based structure (for simpler deployments).
  * LDP Paging support
  * HTTP layer -- this is slated to be implemented with [dropwizard.io](http://dropwizard.io)
