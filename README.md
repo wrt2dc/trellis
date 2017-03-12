@@ -33,6 +33,7 @@ Each of these implements a different service in the `trellis-spi` module. These 
   * [trellis-id](https://github.com/trellis-ldp/trellis-id): An ID generation service
   * [trellis-io-jena](https://github.com/trellis-ldp/trellis-io-jena): A Jena-based I/O service
   * [trellis-jms](https://github.com/trellis-ldp/trellis-jms): A JMS-based event publisher (e.g. for [ActiveMQ](https://activemq.apache.org))
+  * [trellis-kafka](https://github.com/trellis-ldp/trellis-kafka): A [Kafka](https://kafka.apache.org)-based event publisher
   * [trellis-namespaces](https://github.com/trellis-ldp/trellis-namespaces): A namespace service using JSON files for persistence
   * [trellis-webac](https://github.com/trellis-ldp/trellis-webac): An authorization layer
 
