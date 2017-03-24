@@ -35,7 +35,7 @@ Each of these implements a different service in the `trellis-spi` module. These 
   * [trellis-jms](https://github.com/trellis-ldp/trellis-jms): A JMS-based event publisher (e.g. for [ActiveMQ](https://activemq.apache.org))
   * [trellis-kafka](https://github.com/trellis-ldp/trellis-kafka): A [Kafka](https://kafka.apache.org)-based event publisher
   * [trellis-namespaces](https://github.com/trellis-ldp/trellis-namespaces): A namespace service using JSON files for persistence
-  * [trellis-rosid-file](https://github.com/trellis-ldp/trellis-rosid-file) -- a core implementation that uses a (distributed) filesystem for persisting resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
+  * [trellis-rosid-file](https://github.com/trellis-ldp/trellis-rosid-file): An implementation that uses a (distributed) filesystem for persisting resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
   * [trellis-webac](https://github.com/trellis-ldp/trellis-webac): An authorization layer
 
 ### In progress
