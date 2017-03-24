@@ -35,14 +35,14 @@ Each of these implements a different service in the `trellis-spi` module. These 
   * [trellis-jms](https://github.com/trellis-ldp/trellis-jms): A JMS-based event publisher (e.g. for [ActiveMQ](https://activemq.apache.org))
   * [trellis-kafka](https://github.com/trellis-ldp/trellis-kafka): A [Kafka](https://kafka.apache.org)-based event publisher
   * [trellis-namespaces](https://github.com/trellis-ldp/trellis-namespaces): A namespace service using JSON files for persistence
+  * [trellis-rosid-file](https://github.com/trellis-ldp/trellis-rosid-file) -- a core implementation that uses a (distributed) filesystem for persisting resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
   * [trellis-webac](https://github.com/trellis-ldp/trellis-webac): An authorization layer
 
 ### In progress
 
- * Core (distributed) [implementation](https://github.com/trellis-ldp/trellis-rosid-file) -- for creating, deleting, updating and fetching resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
- * Pluggable data storage layer, targeting [HBase](https://hbase.apache.org/) (for high performance, distributed scenarios) and a File-based structure (for simpler deployments).
- * LDP Paging support
  * HTTP layer -- this is slated to be implemented with [dropwizard.io](http://dropwizard.io)
+ * Alternate data storage layers, targeting [HBase](https://hbase.apache.org/) (for high performance, distributed scenarios).
+ * LDP Paging support
  * Cloud-based datastream resolver based on [jclouds](https://jclouds.apache.org/)
  * HTML UI based on [LDPath Templates](http://marmotta.apache.org/ldpath/template.html)
 
