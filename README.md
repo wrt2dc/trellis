@@ -48,13 +48,14 @@ Each of these implements a different service in the `trellis-spi` module. These 
 
 ## Main dependencies
 
+An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
+
   * [Commons-RDF](https://commons.apache.org/proper/commons-rdf/) -- for RDF abstractions
   * [Jena](https://jena.apache.org/) -- for RDF I/O processing
   * [Jackson](https://github.com/FasterXML/jackson) -- for JSON parsing
   * [Jersey](https://jersey.java.net/) -- for HTTP handling
-  * [Zookeeper](https://zookeeper.apache.org/) -- for distributed coordination
+  * [Curator](https://curator.apache.org/) -- for distributed coordination
   * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
-  * [HDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html) (optional) -- for distributed data storage
 
 ## Related projects
 
