@@ -60,6 +60,7 @@ An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
 ## Related projects
 
   * [py-ldnlib](https://github.com/trellis-ldp/py-ldnlib) A Python3 library for linked data notifications
+  * [static-ldp](https://github.com/trellis-ldp/static-ldp) A PHP application that serves static files as LDP resources
 
 ## Deployment
 
