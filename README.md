@@ -70,3 +70,5 @@ An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
 
  * All projects are written in Java and/or Clojure and require at least Java 8. All projects can be built with Gradle.
 
+Once Java 9 is made generally available, trellis code will be updated to make use of Java 9 features. It is anticipated that the 0.1 release of Trellis will run on Java 9.
+
