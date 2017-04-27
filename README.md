@@ -11,6 +11,16 @@ Repository software that implements the [Linked Data Platform](https://www.w3.or
   * Modular
   * Light-weight
 
+## Features
+
+Trellis is an [HTTP/1.1](https://tools.ietf.org/html/rfc7231) server, designed to fully comply with the following specifications:
+
+  * [W3C LDP Server](https://www.w3.org/TR/ldp/)
+  * [W3C Activity Streams 2.0](https://www.w3.org/TR/activitystreams-core/)
+  * [Solid WebAC](https://github.com/solid/solid-spec#authorization-and-access-control) (Authorization and Access Control)
+  * [RFC 7089](https://tools.ietf.org/html/rfc7089) (HTTP Framework for Time-Based Access to Resource States -- Memento)
+  * [RFC 3230](https://tools.ietf.org/html/rfc3230) (Instance Digests in HTTP)
+
 ## Implementation status
 
 The code is a work-in-progress and currently consists of the following elements:
