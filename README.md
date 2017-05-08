@@ -51,11 +51,10 @@ Each of these implements a different service in the `trellis-spi` module. These 
 
 ### In progress
 
- * HTTP layer -- this is slated to be implemented with [dropwizard.io](http://dropwizard.io)
+ * Deployable application using [dropwizard.io](http://dropwizard.io)
  * Alternate data storage layers, targeting [HBase](https://hbase.apache.org/) (for high performance, distributed scenarios).
  * LDP Paging support
  * Cloud-based datastream resolver based on [jclouds](https://jclouds.apache.org/)
- * HTML UI based on [LDPath Templates](http://marmotta.apache.org/ldpath/template.html)
 
 ## Main dependencies
 
