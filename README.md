@@ -66,6 +66,7 @@ An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
   * [Jersey](https://jersey.java.net/) -- for HTTP handling
   * [Curator](https://curator.apache.org/) -- for distributed coordination
   * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
+  * [Beam](https://beam.apache.org/) -- for distributed processing
 
 ## Related projects
 
@@ -79,6 +80,4 @@ An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
 ## Building
 
  * All projects are written in Java and/or Clojure and require at least Java 8. All projects can be built with Gradle.
-
-Once Java 9 is made generally available, trellis code will be updated to make use of Java 9 features. It is anticipated that the 0.1 release of Trellis will run on Java 9.
 
