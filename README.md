@@ -40,7 +40,7 @@ Each of these implements a different service in the `trellis-spi` module. These 
   * [trellis-agent](https://github.com/trellis-ldp/trellis-agent): A service for managing user roles
   * [trellis-amqp](https://github.com/trellis-ldp/trellis-amqp): An AMQP-based event publisher (e.g. for [RabbitMQ](https://www.rabbitmq.com) or [Qpid](https://qpid.apache.org))
   * [trellis-constraint-rules](https://github.com/trellis-ldp/trellis-constraint-rules): Rules defining the constraints on the RDF that can be accepted by the server
-  * [trellis-datastream](https://github.com/trellis-ldp/trellis-datastream): A datastream storage and retrieval service
+  * [trellis-binary](https://github.com/trellis-ldp/trellis-binary): A binary object storage and retrieval service
   * [trellis-id](https://github.com/trellis-ldp/trellis-id): An ID generation service
   * [trellis-io-jena](https://github.com/trellis-ldp/trellis-io-jena): A Jena-based I/O service
   * [trellis-jms](https://github.com/trellis-ldp/trellis-jms): A JMS-based event publisher (e.g. for [ActiveMQ](https://activemq.apache.org))
