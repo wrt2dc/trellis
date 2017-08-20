@@ -53,7 +53,6 @@ Each of these implements a different service in the `trellis-spi` module. These 
 
  * Deployable application using [dropwizard.io](http://dropwizard.io)
  * Alternate data storage layers, targeting [HBase](https://hbase.apache.org/) (for high performance, distributed scenarios).
- * LDP Paging support
  * Cloud-based datastream resolver based on [jclouds](https://jclouds.apache.org/)
 
 ## Main dependencies
