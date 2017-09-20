@@ -11,6 +11,10 @@ Repository software that implements the [Linked Data Platform](https://www.w3.or
   * Modular
   * Light-weight
 
+## Mailing list
+
+An email list is available to anyone who is interested at [https://groups.google.com/forum/#!forum/trellis-ldp](https://groups.google.com/forum/#!forum/trellis-ldp).
+
 ## Features
 
 Trellis is an [HTTP/1.1](https://tools.ietf.org/html/rfc7231) server, designed to fully comply with the following specifications:
