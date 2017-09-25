@@ -1,6 +1,6 @@
 # Trellis
 
-Repository software that implements the [Linked Data Platform](https://www.w3.org/TR/ldp/).
+Trellis is a platform for building scalable Linked Data applications.
 
 **This is a work in progress**
 
