@@ -2,6 +2,10 @@
 
 A scalable platform for building [linked data](https://www.w3.org/TR/ldp/) applications.
 
+## Mailing list
+
+An email list is available to anyone who is interested at [https://groups.google.com/forum/#!forum/trellis-ldp](https://groups.google.com/forum/#!forum/trellis-ldp).
+
 ## Features
 
 Trellis has been designed with four primary goals:
@@ -52,10 +56,6 @@ stable and consistent.
 Any time a resource is created, modified or deleted, a notification is made available, making it easy to use an integration
 framework to connect Trellis to external applications. The notifications provide enough information to make informed routing
 decisions without being too heavy.
-
-## Mailing list
-
-An email list is available to anyone who is interested at [https://groups.google.com/forum/#!forum/trellis-ldp](https://groups.google.com/forum/#!forum/trellis-ldp).
 
 ## Underlying specifications
 
