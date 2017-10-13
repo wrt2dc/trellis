@@ -6,10 +6,10 @@ A scalable platform for building [linked data](https://www.w3.org/TR/ldp/) appli
 
 Trellis has been designed with four primary goals:
 
-    * Scalability
-    * Long-term durability of content
-    * Modularity
-    * Adherence to existing web standards
+  * Scalability
+  * Long-term durability of content
+  * Modularity
+  * Adherence to existing web standards
 
 ### Scalability
 
