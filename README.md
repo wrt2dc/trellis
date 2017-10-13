@@ -79,7 +79,12 @@ All source code is open source and licensed as Apache 2. Contributions are welco
   * [trellis-vocabulary](https://github.com/trellis-ldp/trellis-vocabulary): The core RDF vocabularies in use
   * [trellis-ontology](https://github.com/trellis-ldp/trellis-ontology): The Trellis ontology definitions
 
-### Service implementations
+### Deployable applications
+
+ * [Web Application](https://github.com/trellis-ldp/trellis-app): A self-contained application that provides the main HTTP api for Trellis
+ * [Asynchronous data processor](https://github.com/trellis-ldp/trellis-rosid-file-streaming): A data processing application that can be deployed in stand-alone mode or in a compute cluster, such as Spark, Flink or Apex.
+
+### Modules
 
 Each of these implements a different service in the `trellis-api` module. These can be swapped out for different implementations as needed. Each module is available on Maven Central.
 
@@ -96,11 +101,6 @@ Each of these implements a different service in the `trellis-api` module. These 
   * [trellis-namespaces](https://github.com/trellis-ldp/trellis-namespaces): A namespace service using JSON files for persistence
   * [trellis-rosid-file](https://github.com/trellis-ldp/trellis-rosid-file): An implementation that uses a (distributed) filesystem for persisting resources, based on [RDF-Patch](https://afs.github.io/rdf-patch/) and an asynchronous Kafka event bus
   * [trellis-webac](https://github.com/trellis-ldp/trellis-webac): An authorization layer
-
-### Deployable applications
-
- * [Web Application](https://github.com/trellis-ldp/trellis-app): A self-contained application that provides the main HTTP api for Trellis
- * [Asynchronous data processor](https://github.com/trellis-ldp/trellis-rosid-file-streaming): A data processing application that can be deployed in stand-alone mode or in a compute cluster, such as Spark, Flink or Apex.
 
 ## Main dependencies
 
