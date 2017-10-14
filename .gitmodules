@@ -28,3 +28,12 @@
 [submodule "trellis-constraint-rules"]
 	path = trellis-constraint-rules
 	url = https://github.com/trellis-ldp/trellis-constraint-rules
+[submodule "trellis-id"]
+	path = trellis-id
+	url = https://github.com/trellis-ldp/trellis-id
+[submodule "trellis-io-jena"]
+	path = trellis-io-jena
+	url = https://github.com/trellis-ldp/trellis-io-jena
+[submodule "trellis-jms"]
+	path = trellis-jms
+	url = https://github.com/trellis-ldp/trellis-jms
