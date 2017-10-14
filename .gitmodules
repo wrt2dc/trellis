@@ -37,3 +37,24 @@
 [submodule "trellis-jms"]
 	path = trellis-jms
 	url = https://github.com/trellis-ldp/trellis-jms
+[submodule "trellis-kafka"]
+	path = trellis-kafka
+	url = https://github.com/trellis-ldp/trellis-kafka
+[submodule "trellis-namespaces"]
+	path = trellis-namespaces
+	url = https://github.com/trellis-ldp/trellis-namespaces
+[submodule "trellis-ontology"]
+	path = trellis-ontology
+	url = https://github.com/trellis-ldp/trellis-ontology
+[submodule "trellis-rosid-common"]
+	path = trellis-rosid-common
+	url = https://github.com/trellis-ldp/trellis-rosid-common
+[submodule "trellis-rosid-file"]
+	path = trellis-rosid-file
+	url = https://github.com/trellis-ldp/trellis-rosid-file
+[submodule "trellis-rosid-file-streaming"]
+	path = trellis-rosid-file-streaming
+	url = https://github.com/trellis-ldp/trellis-rosid-file-streaming
+[submodule "trellis-webac"]
+	path = trellis-webac
+	url = https://github.com/trellis-ldp/trellis-webac
