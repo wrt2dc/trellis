@@ -1,0 +1,3 @@
+[submodule "trellis-api"]
+	path = trellis-api
+	url = https://github.com/trellis-ldp/trellis-api
