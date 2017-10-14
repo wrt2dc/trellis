@@ -4,3 +4,6 @@
 [submodule "trellis-vocabulary"]
 	path = trellis-vocabulary
 	url = https://github.com/trellis-ldp/trellis-vocabulary
+[submodule "trellis-http"]
+	path = trellis-http
+	url = https://github.com/trellis-ldp/trellis-http
