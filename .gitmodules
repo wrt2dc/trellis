@@ -1,3 +1,6 @@
 [submodule "trellis-api"]
 	path = trellis-api
 	url = https://github.com/trellis-ldp/trellis-api
+[submodule "trellis-vocabulary"]
+	path = trellis-vocabulary
+	url = https://github.com/trellis-ldp/trellis-vocabulary
