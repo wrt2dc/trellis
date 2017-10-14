@@ -7,3 +7,15 @@
 [submodule "trellis-http"]
 	path = trellis-http
 	url = https://github.com/trellis-ldp/trellis-http
+[submodule "trellis-event-serialization"]
+	path = trellis-event-serialization
+	url = https://github.com/trellis-ldp/trellis-event-serialization
+[submodule "trellis-audit"]
+	path = trellis-audit
+	url = https://github.com/trellis-ldp/trellis-audit
+[submodule "trellis-agent"]
+	path = trellis-agent
+	url = https://github.com/trellis-ldp/trellis-agent
+[submodule "trellis-amqp"]
+	path = trellis-amqp
+	url = https://github.com/trellis-ldp/trellis-amqp
