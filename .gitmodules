@@ -19,3 +19,12 @@
 [submodule "trellis-amqp"]
 	path = trellis-amqp
 	url = https://github.com/trellis-ldp/trellis-amqp
+[submodule "trellis-app"]
+	path = trellis-app
+	url = https://github.com/trellis-ldp/trellis-app
+[submodule "trellis-binary"]
+	path = trellis-binary
+	url = https://github.com/trellis-ldp/trellis-binary
+[submodule "trellis-constraint-rules"]
+	path = trellis-constraint-rules
+	url = https://github.com/trellis-ldp/trellis-constraint-rules
