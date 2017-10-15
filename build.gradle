@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+task apidocs(type: Javadoc, dependsOn: getTasksByName('docs', true)) {
+    outputs.upToDateWhen { false }
+    destinationDir = new File(projectDir, "docs")
+    title = "Trellis Repository Documentation"
+    exclude '**/impl/*'
+    options.with {
+        memberLevel = JavadocMemberLevel.PUBLIC
+        links "http://docs.oracle.com/javase/8/docs/api/"
+        links 'http://docs.oracle.com/javaee/7/api/'
+        links 'https://kafka.apache.org/0110/javadoc/'
+        links 'http://curator.apache.org/apidocs/'
+        links 'http://www.trellisldp.org/apidocs/'
+        links 'https://commons.apache.org/proper/commons-rdf/apidocs/'
+    }
+    source subprojects.collect {project -> project.sourceSets.main.allJava }
+    classpath = files(subprojects.collect {project -> project.sourceSets.main.compileClasspath})
+}
