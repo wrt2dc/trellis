@@ -114,6 +114,10 @@ An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
   * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
   * [Beam](https://beam.apache.org/) -- for distributed processing
 
+## Documentation
+
+Javadocs for each project is available at https://trellis-ldp.github.io/trellis/
+
 ## Related projects
 
   * [py-ldnlib](https://github.com/trellis-ldp/py-ldnlib) A Python3 library for linked data notifications
