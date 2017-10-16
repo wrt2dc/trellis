@@ -2,7 +2,7 @@ apply plugin: 'java'
 
 task apidocs(type: Javadoc, dependsOn: getTasksByName('docs', true)) {
     outputs.upToDateWhen { false }
-    destinationDir = new File(projectDir, "docs")
+    destinationDir = new File(projectDir, "docs/apidocs")
     title = "Trellis Repository Documentation"
     exclude '**/impl/*'
     options.with {
