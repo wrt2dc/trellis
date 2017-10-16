@@ -116,7 +116,7 @@ An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
 
 ## Documentation
 
-Javadocs for each project is available at https://trellis-ldp.github.io/trellis/
+Javadocs for each project is available at https://trellis-ldp.github.io/trellis/apidocs/
 
 ## Related projects
 
