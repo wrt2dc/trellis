@@ -38,7 +38,7 @@ task apidocs(type: Javadoc, dependsOn: getTasksByName('docs', true)) {
         links 'http://docs.oracle.com/javaee/7/api/'
         links 'https://kafka.apache.org/0110/javadoc/'
         links 'http://curator.apache.org/apidocs/'
-        links 'http://www.trellisldp.org/apidocs/'
+        links 'https://trellis-ldp.github.io/trellis/apidocs/'
         links 'https://commons.apache.org/proper/commons-rdf/apidocs/'
     }
 
