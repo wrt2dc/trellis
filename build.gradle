@@ -1,4 +1,31 @@
 apply plugin: 'java'
+apply plugin: 'checkstyle'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    mavenLocal()
+}
+
+configurations {
+    buildToolsConfig
+}
+
+dependencies {
+    buildToolsConfig 'org.trellisldp:trellis-build-tools:0.2.0'
+}
+
+task processBuildTools(type: Copy) {
+    from {
+        configurations.buildToolsConfig.collect {
+            zipTree(it).matching {
+                include 'checkstyle/*.xml'
+                include 'license/*.txt'
+            }
+        }
+    }
+    into 'build'
+}
 
 task apidocs(type: Javadoc, dependsOn: getTasksByName('docs', true)) {
     outputs.upToDateWhen { false }
@@ -14,6 +41,11 @@ task apidocs(type: Javadoc, dependsOn: getTasksByName('docs', true)) {
         links 'http://www.trellisldp.org/apidocs/'
         links 'https://commons.apache.org/proper/commons-rdf/apidocs/'
     }
-    source subprojects.collect {project -> project.sourceSets.main.allJava }
+
+    source subprojects
+        .findAll {!it.name.equals('trellis-app') && !it.name.equals('trellis-rosid-file-streaming') }
+        .collect {project -> project.sourceSets.main.allJava }
     classpath = files(subprojects.collect {project -> project.sourceSets.main.compileClasspath})
 }
+
+checkstyleMain.dependsOn processBuildTools
