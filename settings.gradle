@@ -16,3 +16,6 @@ include 'trellis-rosid-common'
 include 'trellis-rosid-file'
 include 'trellis-vocabulary'
 include 'trellis-webac'
+
+include 'trellis-rosid-file-streaming'
+include 'trellis-app'
