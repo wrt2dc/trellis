@@ -1,3 +1,4 @@
+org.trellisldp.agent
 org.trellisldp.amqp
 org.trellisldp.api
 org.trellisldp.audit
