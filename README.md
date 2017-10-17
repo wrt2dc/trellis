@@ -1,4 +1,4 @@
-# Trellis
+# Trellis Linked Data Server
 
 A scalable platform for building [linked data](https://www.w3.org/TR/ldp/) applications.
 
