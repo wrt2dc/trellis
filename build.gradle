@@ -40,6 +40,7 @@ task apidocs(type: Javadoc, dependsOn: getTasksByName('docs', true)) {
         links 'http://curator.apache.org/apidocs/'
         links 'https://trellis-ldp.github.io/trellis/apidocs/'
         links 'https://commons.apache.org/proper/commons-rdf/apidocs/'
+        links 'http://www.rabbitmq.com/releases/rabbitmq-java-client/current-javadoc/'
     }
 
     source subprojects
