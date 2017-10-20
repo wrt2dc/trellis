@@ -47,9 +47,8 @@ special handling of particular content types needs to be handled in another laye
 ### Web Standards
 
 There are a lot of standards in existence. Trellis has selected to conform to a collection of well-defined and broadly used
-specifications because doing so provides a solid and well-understood foundation for interacting with the software. In a
-word, Trellis doesn't make up new interaction models that clients would need to understand. This also makes the Trellis API
-stable and consistent.
+specifications because doing so provides a solid and well-understood foundation for interacting with the software. This also
+makes the Trellis API stable and consistent.
 
 ### External Integrations
 
