@@ -58,3 +58,6 @@
 [submodule "trellis-webac"]
 	path = trellis-webac
 	url = https://github.com/trellis-ldp/trellis-webac
+[submodule "trellis-bundles"]
+	path = trellis-bundles
+	url = https://github.com/trellis-ldp/trellis-bundles
