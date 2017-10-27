@@ -4,7 +4,7 @@ A scalable platform for building [linked data](https://www.w3.org/TR/ldp/) appli
 
 ## Mailing list
 
-A [mailing list](https://groups.google.com/forum/#!forum/trellis-ldp) is available to anyone who is interested in using, contributing to or simply learning more about Trellis.
+A [mailing list](https://groups.google.com/group/trellis-ldp) is available to anyone who is interested in using, contributing to or simply learning more about Trellis.
 
 ## Features
 
