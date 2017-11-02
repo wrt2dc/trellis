@@ -19,3 +19,5 @@ include 'trellis-webac'
 
 include 'trellis-rosid-file-streaming'
 include 'trellis-app'
+
+include 'camel-ldp'

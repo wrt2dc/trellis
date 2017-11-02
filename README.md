@@ -12,7 +12,6 @@ General documentation for Trellis is available on the [project wiki](https://git
 
 Javadocs for each project is available at https://trellis-ldp.github.io/trellis/apidocs/
 
-
 ## Features
 
 Trellis has been designed with four primary goals:
