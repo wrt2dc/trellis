@@ -6,6 +6,13 @@ A scalable platform for building [linked data](https://www.w3.org/TR/ldp/) appli
 
 A [mailing list](https://groups.google.com/group/trellis-ldp) is available to anyone who is interested in using, contributing to or simply learning more about Trellis.
 
+## Documentation
+
+General documentation for Trellis is available on the [project wiki](https://github.com/trellis-ldp/trellis).
+
+Javadocs for each project is available at https://trellis-ldp.github.io/trellis/apidocs/
+
+
 ## Features
 
 Trellis has been designed with four primary goals:
@@ -112,10 +119,6 @@ An existing Kafka cluster and Zookeeper ensemble are required to run Trellis.
   * [Curator](https://curator.apache.org/) -- for distributed coordination
   * [Kafka](https://kafka.apache.org/) -- for event handling and stream processing
   * [Beam](https://beam.apache.org/) -- for distributed processing
-
-## Documentation
-
-Javadocs for each project is available at https://trellis-ldp.github.io/trellis/apidocs/
 
 ## Related projects
 
